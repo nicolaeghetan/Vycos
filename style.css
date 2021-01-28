@@ -1,0 +1,535 @@
+.header-area {
+    background-color: #333333;
+    color: white;
+    opacity: 95%;
+    width: 100%;
+}
+.aTag {
+    text-decoration: none;
+}
+.aTag:hover {
+    transform: scale(1.2);
+}
+#apply-now-button {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    margin-left: -15px;
+}
+
+#apply-now-button:hover {
+    color: coral;
+    transform: scale(1.05)
+    
+}
+
+.nav-bar-text {
+    color: coral;
+    margin: 20px;
+    margin-left: 55px;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-bar-tex:hover {
+    color: coral;
+}
+#header-phone-icons {
+    height: 40px ;
+    width:  40px;
+    border-radius: 50%;
+    background-color: coral;
+    position: relative;
+}
+#call-today {
+    color: darkgrey;
+}
+#header-area-phone-number {
+    color: white;
+}
+.phone-icon {
+    position: absolute;
+    left: 12px;
+    top: 12px;
+}
+.phone-number-are{
+    display: flex;
+    margin-top: 40px;
+}
+.header-area-apply-now {
+    background-color: chocolate;
+}
+#call-today {
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.menu-area {
+    height: 70px;
+    color: white;
+    background-color: coral;
+    display: flex;
+    justify-content:left;
+    font-family: 'Montserrat', sans-serif;
+    position: sticky;
+    
+}
+.header-area-logo-text {
+    display: flex;
+    justify-content: space-around;
+}
+.nav-bar-area-company-logo {
+    
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    
+}
+#header-area-main-text {
+    font-size: 35px;
+    color: red;
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+#header-area-main-subtext {
+    color: blue;
+    position: absolute;
+    top: 35px;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+}
+
+.text-navbar {
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    margin-left: 55px;
+    font-weight: bolder;
+    
+}
+.text-navbar:hover {
+    color: black;
+}
+.truck-picture {
+    opacity: 95%;
+    position: relative;
+}
+
+#company-logo {
+    opacity: 90%;
+    position: relative;
+    filter: brightness(45%);
+    width: 100%;
+}
+.picture-info-container {
+    position: absolute;
+    right: 6%;
+    bottom: 10%;
+}
+#card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 75px;
+    font-weight: bolder;
+    color:white ;
+}
+#card-text {
+    text-align: center;
+    color: white;
+    margin-left: 15px;
+}
+.card-detail {
+    background-color: coral;
+    margin: 25px;
+    width: 250px;
+    border-radius: 15px;
+    height: 320px;
+}
+.card-detail:hover {
+    filter: brightness(85%);
+    transform: scale(1.1);
+    background-color: chocolate;
+}
+#title-card-sample {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    line-height: 45px;
+    margin:10px;
+}
+#card-description {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    color: white;
+    margin: 20px;
+    
+}
+.custom-icon {
+    margin-left: 90px;
+    margin-top: 20px;
+
+}
+.company-message {
+    margin: 20px;
+}
+#welcome-message-image {
+    border-radius: 5px;
+    filter: contrast(88%);
+    opacity: 90%;
+}
+.welcome-message {
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    
+}
+#welcome-message-title-colored {
+    color: coral;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bolder;
+}
+#welcome-message-description {
+    color: grey;
+    margin-top: 30px;
+    font-size: 15px;
+}
+#service-list-area-title-main {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif; 
+    color: coral;
+}
+#service-list-area-title-secondary {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+.service-list-area-text {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+
+}
+.services-list-area {
+    align-items: center;
+    margin-left: 90px;
+}
+.btn-outline-info:hover {
+    background-color: coral;
+    color: white;
+}
+header {
+	flex: 1;
+	height: 100%;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+header h1 {
+	font-size: 60px;
+}
+
+.counters {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+	padding: 40px 20px;
+}
+
+.counters .container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 30px;
+	text-align: center;
+}
+
+.counters i {
+	margin-bottom: 5px;
+}
+
+.counters .counter {
+	font-size: 45px;
+	margin: 10px 0;
+}
+
+@media (max-width: 700px) {
+	.counters .container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.counters .container > div:nth-of-type(1),
+	.counters .container > div:nth-of-type(2) {
+		border-bottom: 1px lightskyblue solid;
+		padding-bottom: 20px;
+	}
+}
+
+.footer {
+    background-color: #333333;
+}
+.footer-container {
+    margin: 40px;
+}
+.footer-general-column {
+    text-align: left;
+    font-size: large;
+    color: white;
+    padding-left: 30px;
+
+}
+
+
+#footer-copyrigth-text {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.footer-copyrigth-area {
+    width: 100%;
+    background-color: coral;
+}
+.footer-general-title {
+    text-align: center;
+}
+
+
+
+
+/* ================================================================= About Page */
+
+.about-main-area-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main-area-container-title {
+    font-family:'Montserrat', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: coral;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.main-area-container-picture {
+    border-radius: 10px;
+    filter: contrast(90%);
+    opacity: 85%;
+    height: 300px;
+    width: 100%;
+}
+.main-are-continer-title-column {
+    color: grey;
+    font-family:'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* team-area */
+
+.main-area-team-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-image: url('./assets/vycos.jpg');
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 100%;
+}
+.main-area-team-container-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 10px;
+    color: coral;
+    font-weight: bold;
+    letter-spacing: 5px;
+   
+}
+.main-area-team-container-card-image {
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.main-area-team-container-card-name {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    color: coral;
+    font-weight: bolder;
+    
+}
+.main-area-team-container-card-information {
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+}
+
+/* testimonials */
+.testimonial-area-title {
+    font-size: 40px;
+    text-align: left;
+    color: midnightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+.testimonial-area-list {
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+.testimonial-area-text {
+    font-family:"Poppins",sans-serif;
+    color: darkgrey;
+    font-size: 16px;
+}
+.testimonial-area-author {
+    color: coral;
+    font-size: 20px;
+}
+.testimonial-area-subtitle {
+    color: dimgray;
+    font-size: x-large;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+/* Services page */
+/* 
+Card-styling */
+.services-card-area {
+    display: flex;
+    justify-content:space-evenly;
+}
+.card-body-service-icon {
+    padding: 30px;
+ 
+    display: inline-block;
+    border-right: 30px solid coral;
+    border-bottom: 40px solid coral; 
+    position: relative;
+  
+    height: 0;
+    /* line-height: 50px; */
+}
+.service-truck-icon {
+    position: absolute;
+    bottom: -35px;
+    right: 80px;
+}
+.services-card-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    line-height: 10px;
+    color: coral;
+}
+
+.service-area-picture-container {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.service-area-picture-conainer-phone {
+    margin-top: 25%;
+    font-size: 45px;
+    margin-left: 30%;
+}
+.service-area-picture-container-subtitle {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 5px;
+}
+.service-card-area-title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 65px;
+    color: midnightblue;
+    text-align: center;
+    margin: 20px;
+    text-shadow: darkgrey;
+}
+
+.service-page-ourmission-area {
+    margin-bottom:30px;
+}
+.service-page-ourmission-area-title {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.service-page-ourmission-area-text {
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: grey;
+}
+.services-mission-title {
+    font-size: 45px;
+    color: midnightblue;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.service-mission-second-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: grey;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.contact-page-title {
+    font-size: 65px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: coral;
+    text-align: center;
+    margin-bottom: 15px;
+  
+}
+.contact-page-email-form {
+    margin-bottom: 20px;
+}
+
+.driver-page-owner-container {
+    position: relative;
+}
+
+.driver-page-owner-operator-title {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 135px;
+    text-shadow: 4px 4px black;
+    position: absolute;
+    top: 135px;
+    left: 200px;
+    
+}
+
+.button-owner-page {
+    width: 200px;
+    height: 50px;
+    background-color: coral;
+    text-align: center;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 150px;
+    left: 40%;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+  
+}
+#driwer-page-owner-operator-subtitle {
+
+    color: white;
+
+    /* font-size: 20px; */
+}
+.owner-operator-main-area-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkgrey;
+    font-size: large;
+}
+.owner-operator-main-area-eligibility {
+    background-color: gray;
+    color: white;
+    width: 250px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.panel-title:hover {
+   color: black;
+}
+.panel-heading {
+    height: 65px;
+}

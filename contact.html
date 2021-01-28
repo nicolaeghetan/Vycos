@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vycos</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat|Fjalla+One|FontAwesome|Rubik&display=swap"
+        rel="stylesheet">
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
+        defer></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+</head>
+
+<body>
+    <div class="header">
+        <!-- Header AREA -->
+        <div class="header-area">
+            <div class="row">
+                <div class="col-6">
+                    <a class="navbar-brand nav-bar-text" href="index.html">
+                        <div class="row">
+                            <div class="col"><img src="./assets/vycos-logo.jpg" class="nav-bar-area-company-logo"
+                                    alt="VycosLogisticsLogo">
+                            </div>
+                            <div class="col">
+                                <div class="header-area-logo-text">
+                                    <h2 id="header-area-main-text" style="font-weight: bold; font-style: italic;letter-spacing: 10px;">
+                                        VYCOS
+                                    </h2>
+                                    <h3 id="header-area-main-subtext">LOGISTICS</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="row phone-number-are">
+                                <div id="header-phone-icons">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-telephone-fill phone-icon" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                    </svg>
+                                </div>
+                                <h5 id="call-today"> Call Today : <a id="header-area-phone-number"
+                                        href="tel:4254719802">425-471-9802</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-4 main-page-header-area-apply-now">
+                            <a class="navbar-brand nav-bar-text text-white aTag" href="contact.html">
+                                <h3 id="apply-now-button">APPLY NOW</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-area">
+            <a class="text-navbar text-white aTag" style="text-decoration: none;" href="index.html">Home</a>
+            <a class="text-navbar text-white aTag" style="text-decoration: none;" href="about.html">About</a>
+            <a class="text-navbar text-white aTag" style="text-decoration: none;" href="drivers.html">Owners</a>
+            <a class="text-navbar text-white aTag" style="text-decoration: none;" href="owner.html">Drivers</a>
+            <a class="text-navbar text-white aTag" style="text-decoration: none;" href="services.html">Services</a>
+            <a class="text-navbar text-white aTag" style="text-decoration: none;" href="contact.html">Contact</a>
+
+        </div>
+        <!-- Picture area -->
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="contact-page-title">Contact Us</div>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-6">
+                <form method="POST">
+                    <div class="row" style="color:midnightblue; font-size: 35px; font-weight: 600;
+               border-left: 10px solid coral;margin-left: 10px;">
+                        <p style="margin-left: 30px;">KEEP IN TOUCH WITH US</p>
+                    </div>
+                    <div class="row" style="margin: 15px">
+                        <div class="col-2"><i class="fas fa-map-marked-alt fa-3x" style="color: coral;"></i></div>
+                        <div class="col-10"
+                            style="color: gray;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;margin-top: 10px; font-size: larger;">
+                            <strong>Adress : </strong> 82nd Ave. NE, Unit #2, Kirkland, WA 98034
+                        </div>
+                    </div>
+                    <div class="row" style="margin: 15px">
+                        <div class="col-2"><i class="fas fa-phone-alt fa-3x" style="color: coral;"></i></div>
+                        <div class="col-10"
+                            style="color: gray;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;margin-top: 10px; font-size: larger;">
+                            <strong>Phone : </strong> 427-471-9802
+                        </div>
+                    </div>
+                    <div class="row" style="margin: 15px">
+                        <div class="col-2"><i class="fas fa-envelope fa-3x" style="color: coral;"></i></div>
+                        <div class="col-10"
+                            style="color: gray;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;margin-top: 10px; font-size: larger;">
+                            <strong>Mail: </strong> info@vycoslogistics.com
+                        </div>
+                    </div>
+                </form>
+
+
+            </div>
+            <div class="col-6">
+                <div class="row contact-page-email-form">
+                    <div class="col">
+                        <input type="text" class="form-control form-control-lg" placeholder="First name">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control form-control-lg" placeholder="Last name">
+                    </div>
+                </div>
+                <div class="row contact-page-email-form">
+                    <div class="col">
+                        <input type="text" class="form-control form-control-lg" placeholder="Email">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control form-control-lg" placeholder="Phone number">
+                    </div>
+                </div>
+                <div class="row contact-page-email-form">
+                    <div class="col">
+                        <textarea type="text" class="form-control form-control-lg"
+                            placeholder="Your message"></textarea>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-info btn-lg btn-block btn-primary" value="Send Email"
+                    style="background-color: coral; color: midnightblue ;" onclick="sendEmail()">Submit</button>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 30px; margin-left: 70px; align-items: center;">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36116.25710556349!2d-122.25133829907145!3d47.71632238990353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490123e1e1ef2d9%3A0x69774491ff2ba799!2s12803%2082nd%20Ave%20NE%2C%20Kirkland%2C%20WA%2098034!5e0!3m2!1sen!2sus!4v1611626349620!5m2!1sen!2sus"
+                width="1000" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                justify-content=" center" tabindex="0"></iframe>
+        </div>
+
+    </div>
+    <footer class="footer">
+        <div class="row footer-container">
+            <div class="col-12"></div>
+        </div>
+        <div class="row">
+            <div class="col-4 footer-general-column footer-first-column">
+                <h3 id="footer-general-title" style="color: coral; margin-bottom: 30px;">Vycos Logistics</h3>
+                <p id="footer-general-information">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                    laudantium nemo doloremque suscipit odio corrupti excepturi explicabo, veniam beatae perspiciatis
+                    dolorum. Aut odio sed excepturi unde vitae. Inventore, nobis odio.</p>
+            </div>
+            <div class="col-4 footer-general-column">
+                <h3 class="footer-general-title" style="color: coral; margin-bottom: 30px;">Navigation</h3>
+                <ul class="fa-ul">
+                    <li><span class="fa-li"><i class="fas fa-angle-right" style="color: coral;"></i></i></span>
+                        <a href="index.html" class="text-white">Home</a>
+                    </li>
+                    <li><span class="fa-li"><i class="fas fa-angle-right" style="color: coral;"></i></i></span>
+                        <a href="about.html" class="text-white">About Us</a>
+                    </li>
+                    <li><span class="fa-li"><i class="fas fa-angle-right" style="color: coral;"></i></i></span>
+                        <a href="services.html" class="text-white">Services</a>
+                    </li>
+                    <li><span class="fa-li"><i class="fas fa-angle-right" style="color: coral;"></i></i></span>
+                        <a href="drivers.html" class="text-white">Drivers</a>
+                    </li>
+                    <li><span class="fa-li"><i class="fas fa-angle-right" style="color: coral;"></i></i></span>
+                        <a href="applynow.html" class="text-white">APPLY NOW</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-4 footer-general-column">
+                <h3 class="footer-general-title" style="color: coral; margin-bottom: 30px;">
+                    Contact Information</h3>
+                <p><i class="fas fa-map-marker-alt" style="color: coral;"></i> 12803 82nd Ave. NE, Unit #2, Kirkland,
+                    WA 98034</p>
+                <p><i class="fas fa-phone-alt" style="color: coral;"></i> 425-471-9802</p>
+                <p><i class="fas fa-envelope" style="color: coral;"></i> info@vycoslogistics.com</p>
+            </div>
+        </div>
+        <div class="row footer-copyrigth-area">
+            <div class="col-12">
+                <br>
+                <div id="footer-copyrigth-text">
+                    © 2021 Vycos Logistics. Privacy Policy
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

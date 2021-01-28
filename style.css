@@ -3,7 +3,9 @@
     color: white;
     opacity: 95%;
     width: 100%;
+   
 }
+
 .aTag {
     text-decoration: none;
 }
@@ -12,8 +14,9 @@
 }
 #apply-now-button {
     font-family: "Poppins", sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     margin-left: -15px;
+    margin-top: 20px;
 }
 
 #apply-now-button:hover {
@@ -70,9 +73,18 @@
     position: sticky;
     
 }
-.header-area-logo-text {
+.main-area-logo-text {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+#main-area-logo-pic {
+    width: 120px;
+    height: 70px;
+}
+#main-area-logo-pic-text {
+    height: 70px;
+    width: 220px;
 }
 .nav-bar-area-company-logo {
     
